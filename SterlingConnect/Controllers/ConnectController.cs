@@ -43,7 +43,6 @@ namespace SterlingConnect.Controllers
             return Ok(response);
         }
 
-
         [HttpPost]
         [Route("/MakeRequest")]
         public ActionResult<String> MakeMessage(Dictionary<String, String> isoMessage)
