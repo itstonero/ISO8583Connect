@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SterlingConnect", "SterlingConnect\SterlingConnect.csproj", "{76D236FD-EE53-46B2-BD80-F86C8C9B0410}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76D236FD-EE53-46B2-BD80-F86C8C9B0410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D236FD-EE53-46B2-BD80-F86C8C9B0410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D236FD-EE53-46B2-BD80-F86C8C9B0410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D236FD-EE53-46B2-BD80-F86C8C9B0410}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFF27A85-4EF3-4F51-B965-ED0227DA5C21}
+	EndGlobalSection
+EndGlobal
