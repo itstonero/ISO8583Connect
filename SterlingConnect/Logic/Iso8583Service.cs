@@ -144,7 +144,8 @@ namespace SterlingConnect.Logic
             var iso = new Iso8583Extended();
             try
             {
-                iso.Unpack(Encoding.UTF8.GetBytes(isoMessage.Trim()), 0);
+                byte[] isoMsg = Encoding.UTF8.GetBytes(isoMessage.Trim());
+                iso.Unpack(isoMsg, 0);
                 return iso.ToString();
             }
             catch (Exception ex)
